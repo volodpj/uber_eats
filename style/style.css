@@ -1,0 +1,84 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    width: 1124px;
+    
+}
+
+header{
+
+}
+
+/* ---------------------------------------------HEADER TOP---------------------------- */
+.header_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+   
+}
+
+.header_top > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 964px;
+}
+
+.header_top_register-box > input[value="Sign In"]{
+    width: 80px;
+    height: 40px;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 24px;
+    background-color: #FFF;
+}
+
+
+/* ---------------------------------------------HEADER MAIN---------------------------- */
+.header_main{
+    background-image: url(../img/header.png);
+    height: 364px;
+    width: 100%;
+}
+
+
+/* ---------------------------------------------HEADER NAV---------------------------- */
+.header_nav{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header_nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    width: 605px;
+
+    
+}
+
+.header_nav ul li{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #626262;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.header_nav ul li:hover{
+    color: #327430;
+}
