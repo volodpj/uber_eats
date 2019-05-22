@@ -82,3 +82,68 @@ header{
 .header_nav ul li:hover{
     color: #327430;
 }
+
+/* ---------------------------------------------main---------------------------- */
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+.main__contentBox{
+    width: 956px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main__itemBox{
+    width: 470px;
+    height: 160px;
+    border: 1px solid black;
+    flex: 470px 1 470px;
+    margin-bottom: 50px;
+}
+
+.footer{
+    width: 1124px;
+    height: 552px;
+    background-color: #262626;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+
+}
+
+
+
+.footer__section{
+    width: 956px;
+    border-bottom: 1px solid #FFF;
+}
+
+.footer__logo-box{
+    height: 115px;
+}
+
+.footer__content{
+    height: 220px;
+    display: flex;
+    justify-content: cpace-between;
+}
+
+.footer__links{
+    height: 120px;
+}
+
+.footer__logo__link{
+    display: block;
+}
+
+.footer__logo__link::before{
+    content: '#'
+}
+
+.footer__links img{
+    border-radius: 6px;
+
+}
