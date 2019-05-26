@@ -15,16 +15,38 @@
 
             <article class="header_top">
                 <div>
-                    <a href="#"><img src="./img/logo.svg" alt="uber eats" class="header_logo"></a>
-                    <div class="header_top_adress-box"></div>
+
+                    <div class="header__logo-box">
+                        <a href="#"><img src="./img/logo.svg" alt="uber eats" class="header_logo"></a>
+                    </div>
+                    
+                    <div class="header_top_adress-box">
+                        <input type="text" value="ASAP" class="header__adress__type">
+                        <p>to</p>
+                        <input type="text" value="ul. Bolshaya Dmitrovoka,22" class="header__adress">
+                    </div>
+
                     <form class="header_top_register-box">
                         <input type="button" value="Sign In">
                         <input type="button" value="Register">
                     </form>
-                    <img src="./img/basket.png" alt="" class="bag">
+
+                    <div class="header__bag-box">
+                        <img src="./img/basket.png" alt="" class="bag">
+                    </div>
+                    
+
                 </div>
             </article>
-            <div class="header_main"></div>
+            <div class="header_main">
+                <div class="header__info-box">
+                    <div class="header__info-title">Трактир «Пушкин»</div>
+                    <div class="header__info-description">
+                        <div class="header__info-info">₽₽₽ • Европейская</div>
+                        <div class="header__info-time">40 - 50 Min</div>
+                    </div>
+                </div>
+            </div>
             <nav class="header_nav"><ul>
                 <li>Закуски</li>
                 <li>Салати</li>
@@ -38,35 +60,57 @@
 
         <main class="main">
 
+            <div class="main__title-box">
+                <div>Закуски</div>
+            </div>
+                
             <div class="main__contentBox">
 
                 <div class="main__itemBox">
-                    <div class="main__itemBox__description"></div>
+                    <div class="main__itemBox__description">
+                        <div class="item_name">Оселедець на бородинському хлібі</div>
+                        <div class="item__price">260</div>
+                    </div>
                     <img class="main__itemBox__img" src="img/photo.jpg">
                 </div>
 
                 <div class="main__itemBox">
-                    <div class="main__itemBox__description"></div>
+                    <div class="main__itemBox__description">
+                        <div class="item_name">Солений асорті</div>
+                        <div class="item__price">260</div>
+                    </div>
                     <img class="main__itemBox__img" src="img/photo1.jpg">
                 </div>
 
                 <div class="main__itemBox">
-                    <div class="main__itemBox__description"></div>
+                    <div class="main__itemBox__description">
+                        <div class="item_name">Гриби мариновані</div>
+                        <div class="item__price">260</div>
+                    </div>
                     <img class="main__itemBox__img" src="img/photo2.jpg">
                 </div>
 
                 <div class="main__itemBox">
-                    <div class="main__itemBox__description"></div>
+                    <div class="main__itemBox__description">
+                        <div class="item_name">Сало домашнє з гірчицею</div>
+                        <div class="item__price">260</div>
+                    </div>
                     <img class="main__itemBox__img" src="img/photo3.jpg">
                 </div>
 
                 <div class="main__itemBox">
-                    <div class="main__itemBox__description"></div>
+                    <div class="main__itemBox__description">
+                        <div class="item_name">Малосольна сьомга</div>
+                        <div class="item__price">260</div>
+                    </div>
                     <img class="main__itemBox__img" src="img/photo4.jpg">
                 </div>
 
                 <div class="main__itemBox">
-                    <div class="main__itemBox__description"></div>
+                    <div class="main__itemBox__description">
+                        <div class="item_name">Язик говяжий з хроном</div>
+                        <div class="item__price">260</div>
+                    </div>
                     <img class="main__itemBox__img" src="img/photo5.jpg">
                 </div>
 
@@ -80,40 +124,53 @@
                 <a href="#"><img src="./img/logo.svg" alt="uber eats" class="footer__logo"></a>
 
             </section>
-            <section class="footer__section footer__content">
-                <div class="footer__content__left">
-                    <select name="" id="">
-                        <option value="english">ENGLISH</option>
-                        <option value="ukraine">UKRAINE</option>
-                    </select>
-                    <a href="#" class="footer__logo__link">UberEats</a>
-                    <div>
-                        <a href=""><img src="img/facebook.svg" alt=""></a>
-                        <a href=""><img src="img/twitter.svg" alt=""></a>
-                        <a href=""><img src="img/instagram.svg" alt=""></a>
-                    </div>
+            <section class="footer__section">
+                <div class="footer__content">
+                    <div class="footer__content__left">
+                        <label class="footer__select-box"></label>
+                        <select name="" class="footer__select">
+                            <option value="english">ENGLISH</option>
+                            <option value="ukraine">UKRAINE</option>
+                        </select>
+                            <a href="#" class="footer__logo__link">UberEats</a>
+                                <div>
+                                    <a href=""><img src="img/facebook.svg" alt=""></a>
+                                    <a href=""><img src="img/twitter.svg" alt=""></a>
+                                    <a href=""><img src="img/instagram.svg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="footer__content__center">
+                                <ol>
+                                    <li><a href="">About UberEats</a></li>
+                                    <li><a href="">Become a Delivery Partner</a></li>
+                                    <li><a href="">Become a Restaurant Partner</a></li>
+                                </ol>
+                            </div>
+                            <div class="footer__content__rigth">
+                                <ol>
+                                    <li><a href="#">See all cities</a></li>
+                                    <li><a href="#">Pricing</a></li>
+                                    <li><a href="#">Help</a></li>
+                                    <li><a href="#">FAQs</a></li>
+                                </ol>
+                            </div>
+                        </section>
                 </div>
-                <div class="footer__content__center">
-                    <ol>
-                        <li><a href="">About UberEats</a></li>
-                        <li><a href="">Become a Delivery Partner</a></li>
-                        <li><a href="">Become a Restaurant Partner</a></li>
-                    </ol>
+                
+            <section class="footer__section footer__links-box">
+                <div class="footer__links">
+                    <a href=""><img src="img/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.jpg" alt=""></a>
+                    <a href=""><img src="img/en_badge_web_generic-cf6dad406f.jpg" alt=""></a>
                 </div>
-                <div class="footer__content__rigth">
-                    <ol>
-                        <li><a href="#">See all cities</a></li>
-                        <li><a href="#">Pricing</a></li>
-                        <li><a href="#">Help</a></li>
-                        <li><a href="#">FAQs</a></li>
-                    </ol>
+                
+            </section>
+            <section class="footer__bottom">
+                <div class="footer__bottom-box">
+                    <p>© 2017 Uber Technologies Inc</p>
+                    <p>Privacy</p>
+                    <p>Terms</p>
                 </div>
             </section>
-            <section class="footer__section footer__links">
-                <a href=""><img src="img/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.jpg" alt=""></a>
-                <a href=""><img src="img/en_badge_web_generic-cf6dad406f.jpg" alt=""></a>
-            </section>
-            <section class="footer__bottom"></section>
         </footer>
 
     </article>
